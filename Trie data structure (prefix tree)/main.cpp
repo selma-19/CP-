@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-// https://leetcode.com/problems/implement-trie-prefix-tree/description/
+// https://leetcode.com/problems/implement-trie-prefix-tree/
 struct TrieNode{
     bool isEnding;
     TrieNode* children[26];
